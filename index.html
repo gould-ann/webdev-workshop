@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
-	<head>
+	<head> <!--head tag... kind of defines different aspects of html page -->
 	    <meta charset="utf-8" />
-	    <title>Webdev game workshop</title>
+	    <title>Webdev workshop</title>
 	    <!--this is a comment in html!-->
-	    <style>
-	    	* { padding: 0; margin: 0; }
+	    <link rel="stylesheet" href="style.css">
+	    <!--example inline css:
+		<style>
+			* { padding: 0; margin: 0; }
 	    	canvas { background: #eee; display: block; margin: 0 auto; }
-	    </style>
+		</style>
+	    -->
 	</head>
 	<body>
-
 	<canvas id="board" width="480" height="320"></canvas>
-
 		<!--this is a reference to the javascript file we will use for creating our canvas-->
-		<script src="game.js"></script>
-
+	<script src="js/script.js"></script> <!--references the javascript file... see how its in a different folder?-->
 	</body>
 </html>
